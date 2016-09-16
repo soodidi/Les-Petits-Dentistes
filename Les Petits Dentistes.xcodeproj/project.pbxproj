@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035FF5E51D8C5AD2003B5102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035FF5E41D8C5AD2003B5102 /* AppDelegate.swift */; };
+		035FF5E71D8C5AD2003B5102 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035FF5E61D8C5AD2003B5102 /* ViewController.swift */; };
+		035FF5EA1D8C5AD2003B5102 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035FF5E81D8C5AD2003B5102 /* Main.storyboard */; };
+		035FF5EC1D8C5AD2003B5102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035FF5EB1D8C5AD2003B5102 /* Assets.xcassets */; };
+		035FF5EF1D8C5AD2003B5102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035FF5ED1D8C5AD2003B5102 /* LaunchScreen.storyboard */; };
+		035FF5FA1D8C5AD2003B5102 /* Les_Petits_DentistesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035FF5F91D8C5AD2003B5102 /* Les_Petits_DentistesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		035FF5F61D8C5AD2003B5102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 035FF5D91D8C5AD2003B5102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 035FF5E01D8C5AD2003B5102;
+			remoteInfo = "Les Petits Dentistes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035FF5E11D8C5AD2003B5102 /* Les Petits Dentistes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Les Petits Dentistes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		035FF5E41D8C5AD2003B5102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		035FF5E61D8C5AD2003B5102 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		035FF5E91D8C5AD2003B5102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		035FF5EB1D8C5AD2003B5102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		035FF5EE1D8C5AD2003B5102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		035FF5F01D8C5AD2003B5102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035FF5F51D8C5AD2003B5102 /* Les Petits DentistesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Les Petits DentistesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		035FF5F91D8C5AD2003B5102 /* Les_Petits_DentistesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Les_Petits_DentistesTests.swift; sourceTree = "<group>"; };
+		035FF5FB1D8C5AD2003B5102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		035FF5DE1D8C5AD2003B5102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035FF5F21D8C5AD2003B5102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035FF5D81D8C5AD2003B5102 = {
+			isa = PBXGroup;
+			children = (
+				035FF5E31D8C5AD2003B5102 /* Les Petits Dentistes */,
+				035FF5F81D8C5AD2003B5102 /* Les Petits DentistesTests */,
+				035FF5E21D8C5AD2003B5102 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		035FF5E21D8C5AD2003B5102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				035FF5E11D8C5AD2003B5102 /* Les Petits Dentistes.app */,
+				035FF5F51D8C5AD2003B5102 /* Les Petits DentistesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		035FF5E31D8C5AD2003B5102 /* Les Petits Dentistes */ = {
+			isa = PBXGroup;
+			children = (
+				035FF5E41D8C5AD2003B5102 /* AppDelegate.swift */,
+				035FF5E61D8C5AD2003B5102 /* ViewController.swift */,
+				035FF5E81D8C5AD2003B5102 /* Main.storyboard */,
+				035FF5EB1D8C5AD2003B5102 /* Assets.xcassets */,
+				035FF5ED1D8C5AD2003B5102 /* LaunchScreen.storyboard */,
+				035FF5F01D8C5AD2003B5102 /* Info.plist */,
+			);
+			path = "Les Petits Dentistes";
+			sourceTree = "<group>";
+		};
+		035FF5F81D8C5AD2003B5102 /* Les Petits DentistesTests */ = {
+			isa = PBXGroup;
+			children = (
+				035FF5F91D8C5AD2003B5102 /* Les_Petits_DentistesTests.swift */,
+				035FF5FB1D8C5AD2003B5102 /* Info.plist */,
+			);
+			path = "Les Petits DentistesTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		035FF5E01D8C5AD2003B5102 /* Les Petits Dentistes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035FF5FE1D8C5AD2003B5102 /* Build configuration list for PBXNativeTarget "Les Petits Dentistes" */;
+			buildPhases = (
+				035FF5DD1D8C5AD2003B5102 /* Sources */,
+				035FF5DE1D8C5AD2003B5102 /* Frameworks */,
+				035FF5DF1D8C5AD2003B5102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Les Petits Dentistes";
+			productName = "Les Petits Dentistes";
+			productReference = 035FF5E11D8C5AD2003B5102 /* Les Petits Dentistes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		035FF5F41D8C5AD2003B5102 /* Les Petits DentistesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035FF6011D8C5AD2003B5102 /* Build configuration list for PBXNativeTarget "Les Petits DentistesTests" */;
+			buildPhases = (
+				035FF5F11D8C5AD2003B5102 /* Sources */,
+				035FF5F21D8C5AD2003B5102 /* Frameworks */,
+				035FF5F31D8C5AD2003B5102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				035FF5F71D8C5AD2003B5102 /* PBXTargetDependency */,
+			);
+			name = "Les Petits DentistesTests";
+			productName = "Les Petits DentistesTests";
+			productReference = 035FF5F51D8C5AD2003B5102 /* Les Petits DentistesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		035FF5D91D8C5AD2003B5102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = TekCare;
+				TargetAttributes = {
+					035FF5E01D8C5AD2003B5102 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					035FF5F41D8C5AD2003B5102 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 035FF5E01D8C5AD2003B5102;
+					};
+				};
+			};
+			buildConfigurationList = 035FF5DC1D8C5AD2003B5102 /* Build configuration list for PBXProject "Les Petits Dentistes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 035FF5D81D8C5AD2003B5102;
+			productRefGroup = 035FF5E21D8C5AD2003B5102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				035FF5E01D8C5AD2003B5102 /* Les Petits Dentistes */,
+				035FF5F41D8C5AD2003B5102 /* Les Petits DentistesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		035FF5DF1D8C5AD2003B5102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035FF5EF1D8C5AD2003B5102 /* LaunchScreen.storyboard in Resources */,
+				035FF5EC1D8C5AD2003B5102 /* Assets.xcassets in Resources */,
+				035FF5EA1D8C5AD2003B5102 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035FF5F31D8C5AD2003B5102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		035FF5DD1D8C5AD2003B5102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035FF5E71D8C5AD2003B5102 /* ViewController.swift in Sources */,
+				035FF5E51D8C5AD2003B5102 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035FF5F11D8C5AD2003B5102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035FF5FA1D8C5AD2003B5102 /* Les_Petits_DentistesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		035FF5F71D8C5AD2003B5102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 035FF5E01D8C5AD2003B5102 /* Les Petits Dentistes */;
+			targetProxy = 035FF5F61D8C5AD2003B5102 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		035FF5E81D8C5AD2003B5102 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035FF5E91D8C5AD2003B5102 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		035FF5ED1D8C5AD2003B5102 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035FF5EE1D8C5AD2003B5102 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		035FF5FC1D8C5AD2003B5102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		035FF5FD1D8C5AD2003B5102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		035FF5FF1D8C5AD2003B5102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Les Petits Dentistes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Les-Petits-Dentistes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		035FF6001D8C5AD2003B5102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Les Petits Dentistes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Les-Petits-Dentistes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		035FF6021D8C5AD2003B5102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Les Petits DentistesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Les-Petits-DentistesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Les Petits Dentistes.app/Les Petits Dentistes";
+			};
+			name = Debug;
+		};
+		035FF6031D8C5AD2003B5102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Les Petits DentistesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Les-Petits-DentistesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Les Petits Dentistes.app/Les Petits Dentistes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		035FF5DC1D8C5AD2003B5102 /* Build configuration list for PBXProject "Les Petits Dentistes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035FF5FC1D8C5AD2003B5102 /* Debug */,
+				035FF5FD1D8C5AD2003B5102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		035FF5FE1D8C5AD2003B5102 /* Build configuration list for PBXNativeTarget "Les Petits Dentistes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035FF5FF1D8C5AD2003B5102 /* Debug */,
+				035FF6001D8C5AD2003B5102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		035FF6011D8C5AD2003B5102 /* Build configuration list for PBXNativeTarget "Les Petits DentistesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035FF6021D8C5AD2003B5102 /* Debug */,
+				035FF6031D8C5AD2003B5102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 035FF5D91D8C5AD2003B5102 /* Project object */;
+}
